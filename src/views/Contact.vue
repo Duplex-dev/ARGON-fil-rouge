@@ -10,6 +10,7 @@
       <b-carousel-slide img-src="img/Fil Rouge/cosmetics1.jpg">
       </b-carousel-slide>
     </b-carousel>
+    <!-- integration d'un carousel -->
 
     <div class="head-contact">
       <h2>Contactez-nous</h2>
