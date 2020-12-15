@@ -1,6 +1,15 @@
 <template>
   <div>
-    <img src="img/Fil Rouge/main.jpg" alt="maquillage" />
+    <b-carousel id="carousel1" controls indicators>
+      <!-- Text slides with image -->
+      <b-carousel-slide img-src="img/Fil Rouge/Main.jpg"> </b-carousel-slide>
+
+      <b-carousel-slide caption text img-src="img/Fil Rouge/logo.jpg">
+      </b-carousel-slide>
+
+      <b-carousel-slide img-src="img/Fil Rouge/cosmetics1.jpg">
+      </b-carousel-slide>
+    </b-carousel>
 
     <div class="head-contact">
       <h2>Contactez-nous</h2>
@@ -43,12 +52,14 @@
   </div>
 </template>
 <script>
-import Carousel from "./components/Carousel";
+import { BCarousel } from "bootstrap-vue/esm/components/carousel/carousel";
+import { BCarouselSlide } from "bootstrap-vue/esm/components/carousel/carousel-slide";
 
 export default {
-  name: "acccueil",
+  name: "contact",
   components: {
-    Carousel,
+    BCarousel,
+    BCarouselSlide,
   },
 };
 </script>
