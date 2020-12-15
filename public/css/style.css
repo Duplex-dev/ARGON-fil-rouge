@@ -1,0 +1,294 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*/////////HEADER//////////*/
+.brand{
+    font-family: vidaloka;
+    font-size: 30px;
+    font-weight: 5px;
+    text-align: center;
+    color: black;
+} 
+.rose{
+    color: #fF66C4; 
+}
+a.nav-link{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 0.9rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+a.nav-link:hover{
+    color: #fF66C4;
+}
+a{
+    color: #000;
+}
+a:hover{
+    color: #fF66C4;
+}
+.root{
+    --font-family:'times new Roman';
+}
+
+.dropdown-item{
+    font-family: 'times new roman';
+}
+a.dropdown-item:hover{
+    color: #fF66C4;
+}
+
+/*///////////STEP////////*/
+iframe{
+    margin-bottom: 10px;
+}
+.welcome{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-left: 15px;
+    padding: 0;
+}
+
+/*//////////NOS PRODUITS//////////*/
+h3{
+    width: 100%;
+    background-color: #c4c4c4;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-top: 1px #fF66C4 solid;
+    
+}
+.headings-color{
+    color:black;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+/*//////////POSSIBILITIES///////////*/
+#pinceaux{
+    background: url("../img/Fil Rouge/pinceaux.jpg") no-repeat;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+}
+.btn-pin{
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.btn-pin:hover{
+    background-color: #fF66C4;
+}
+
+#accessoires{
+    background: url("../img/Fil Rouge/Accéssoires1.jpg") no-repeat;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 12px; 
+    margin-bottom: 20px;
+}
+.btn-access{
+    margin: auto; 
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.btn-access:hover{
+    background-color: #fF66C4;
+}
+#petits-appareils{
+    background: url("../img/Fil Rouge/petitsappareils.jpg")  no-repeat;
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 12px; 
+    margin-bottom: 20px;
+}
+.btn-pm{
+    margin: auto;
+    display: block;
+    margin-top: 50%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+.btn-pm:hover{
+    background-color: #fF66C4;
+}
+/*/////////FOOTER//////*/
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;    
+}
+.politics{
+  padding: 10px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.politics li{
+    
+    list-style: none;
+    /* display: inline-block; */
+} 
+.politics li a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.4s;
+}
+.politics li a:hover{
+    color: #fF66C4;
+}
+.payments ul{
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+.payments ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.payments ul li i{  
+    transition: 0.4s; 
+    font-size: 20px;
+}
+/*////////MEDIA////////*/
+@media screen and (min-width:992px){
+    .btn-pin{
+    margin: 22%;
+    display: block;
+    margin-top: 33%;
+    }
+    .btn-pm{
+    margin: 22%;
+    display: block;
+    margin-top: 33%;
+    }
+    .btn-access{
+    margin: 22%;
+    display: block;
+    margin-top: 33%;
+    }
+}
+
+
+
+
+
+/*//////////CONTACT//////////*/
+img{
+    margin-bottom: 10px;
+    width: 100%;
+}
+.head-contact h2{ 
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #c4c4c4;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border-top: 1px #fF66C4 solid;
+   
+    
+}
+.head-contact p
+{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contact-form
+{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(240, 235, 235);; 
+    padding:20px 40px;
+    outline: none;
+    color:black;
+    transition:0.5s;
+}
+.contact-form-text:focus
+{
+    box-shadow: 0 0 10px 4px #ff66c4;
+}
+.textarea.contact-form-text
+{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn
+{
+    float: right;
+    border: 0;
+    background: #c4c4c4;
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.contact-form-btn:hover
+{
+    background: #ff66c4;
+}
+
+.contact-section
+{
+    background-color: #e6e8ed;
+    padding: 40px 0;
+}
